@@ -37,10 +37,10 @@ syntax enable
 
 set encoding=utf-8
 
-"au BufRead,BufNewFile *.markdown set filetype=mkd
-"au BufRead,BufNewFile *.md set filetype=mkd
-" Is this incompatible for Vundle?
-" filetype plugin on "load filetype-specific indent files
+au BufRead,BufNewFile *.markdown set filetype=mkd
+au BufRead,BufNewFile *.md set filetype=mkd
+ Is this incompatible for Vundle?
+filetype plugin on "load filetype-specific indent files
 
 set lazyredraw "only redraw when you have to
 
